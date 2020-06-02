@@ -1,0 +1,23 @@
+{
+    "name": "ninja/search",
+    "description": "This package searches on entities",
+    "authors": [
+        {
+            "name": "Maedeh Taherizadeh",
+            "email": "ma.taherizadeh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ninja\\search\\SearchServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ninja\\Search\\": "src/"
+        }
+    }
+}
